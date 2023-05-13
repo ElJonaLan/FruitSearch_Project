@@ -2,9 +2,6 @@
   box-sizing: border-box;
 }
 
-  /* :focus {      // why use this?
-  } */
-
 body {
   background: linear-gradient(90deg, rgba(29,253,155,1) 0%, rgba(69,148,252,1) 100%);
   display: flex;
@@ -14,7 +11,6 @@ body {
 input {
   background: transparent;
   border-width: 1px;
-  /* color: white;         why doesnt this change placeholder text color? */
   }
 
 .search-container {
@@ -22,24 +18,11 @@ input {
   top: 10rem;
 }
 
-  /* .search-container input, .search-container .suggestions {
-  } */
-
-  /* .search-container input {
-  } */
-
-  /* .search-container .suggestions {      // what would this change different to ul?
-  } */
-
 ul {
   display: block;
   margin: 0;
   padding: 0;
 }
-
-  /* ul.has-suggestions {
-    display: block;
-  } */
 
 ul li {
   display: block;
